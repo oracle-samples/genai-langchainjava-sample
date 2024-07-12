@@ -1,0 +1,27 @@
+{
+    "prompt": "Tell me about {FirstName} {LastName}. when did he join the company?",
+    "modelParameters": {
+        "modelId": "cohere.command",
+        "configProfile" : "xxxxx",
+        "compartmentId": "ocid1.compartment.oc1..xxxxxxxxx",
+        "region": "US_CHICAGO_1",
+        "endpoint": "https://inference.generativeai.us-chicago-1.oci.oraclecloud.com",
+        "configLocation": "~/.oci/config",
+        "temperature": 0.5
+    },
+    "httpRequest": {
+        "apiURL": "API URL",
+        "authorizationToken": "Basic xxx",
+        "contentType": "application/json"
+    },
+    "properties": [
+        {
+            "key": "FirstName",
+            "value": "Casey"
+        },
+        {
+            "key": "LastName",
+            "value": "Brown"
+        }
+    ]
+}

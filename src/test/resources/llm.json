@@ -1,0 +1,13 @@
+{
+    "prompt": "Tell me somehting about Oracle OCI?",
+    "modelParameters": {
+        "modelId": "cohere.command",        
+        "configProfile" : "DEFAULT",
+        "compartmentId": "ocid1.compartment.oc1..xxxx",
+        "region": "US_CHICAGO_1",
+        "endpoint": "https://inference.generativeai.us-chicago-1.oci.oraclecloud.com",
+        "configLocation": "~/.oci/config",
+        "temperature": 0.5,
+        "maxToken" : 300
+    }
+}
